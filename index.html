@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mastering CSS</title>
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Nav Section Start -->
+    <nav class="nav-container">
+      <div class="nav-button-wrapper">
+        <label class="inside">Home</label>
+        <label class="inside">About</label>
+        <label class="inside">Help</label>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search" /><button class="search-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#5f6368"
+          >
+            <path
+              d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="profile"></div>
+      <div class="menu-container">
+        <a href="https://www.google.co.in" target="_blank" class="floating-a"
+          >Profile</a
+        >
+        <a href="https://www.google.co.in" target="_blank" class="floating-a"
+          >About</a
+        >
+        <a href="https://www.google.co.in" target="_blank" class="floating-a"
+          >Help</a
+        >
+        <a href="https://www.google.co.in" target="_blank" class="floating-a"
+          >Settings</a
+        >
+        <a href="https://www.google.co.in" target="_blank" class="floating-a"
+          >Logout</a
+        >
+      </div>
+    </nav>
+    <!-- Nav Section End -->
+    <!-- Main Section Start -->
+    <main>
+      <div class="content-container">
+        <div class="aside">
+          <div class="floating-labels">
+            <label
+              ><img
+                src="./Icons/house.svg"
+                alt="home"
+                width="18px"
+              />&nbsp;Home</label
+            >
+            <label
+              ><img
+                src="./Icons/subscriptions.svg"
+                alt="subscriptions"
+                width="18px"
+              />&nbsp;Subscriptions</label
+            >
+            <label
+              ><img
+                src="./Icons/cinematic_blur.svg"
+                alt="channel"
+                width="18px"
+              />&nbsp;Your Channel</label
+            >
+            <label
+              ><img
+                src="./Icons/history.svg"
+                alt="history"
+                width="18px"
+              />&nbsp;History</label
+            >
+            <label
+              ><img
+                src="./Icons/playlist.svg"
+                alt="Playlists"
+                width="18px"
+              />&nbsp;Playlists</label
+            >
+            <label
+              ><img
+                src="./Icons/playlist.svg"
+                alt="your-videos"
+                width="18px"
+              />&nbsp;Your Videos</label
+            >
+            <label
+              ><img
+                src="./Icons/schedule.svg"
+                alt="watch-later"
+                width="18px"
+              />&nbsp;Watch Later</label
+            >
+            <label
+              ><img
+                src="./Icons/thumb_up.svg"
+                alt="liked-videos"
+                width="18px"
+              />&nbsp;Liked Videos</label
+            >
+          </div>
+        </div>
+        <div class="banner">
+          <img src="./Icons/ppa_banner.jpg" alt="ppa-banner" width="100%" />
+        </div>
+        <div class="mobile-nav">
+          <label>Home</label>
+          <label>Videos</label>
+          <label>Shorts</label>
+          <label>Live</label>
+          <label>Playlists</label>
+          <label>Community</label>
+          <label>About</label>
+        </div>
+        <!-- Videos Container Section -->
+        <div id="video-container" class="video-container"></div>
+      </div>
+      <script src="script.js"></script>
+    </main>
+    <!-- Main Section End -->
+  </body>
+</html>
